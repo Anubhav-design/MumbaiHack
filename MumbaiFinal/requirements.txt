@@ -1,0 +1,53 @@
+# Hospital Sign Language Communication System
+# Enhanced Dependencies for AI + ML + Notifications
+
+# ============== CORE ==============
+# Computer Vision & ML
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+
+# Deep Learning (for CNN model)
+tensorflow>=2.13.0
+
+# Text-to-Speech
+pyttsx3>=2.90
+
+# GUI
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# ============== AI AGENT ==============
+# Groq API for fast LLM responses
+groq>=0.4.0
+
+# ============== NOTIFICATIONS ==============
+# Twilio for SMS & WhatsApp
+twilio>=8.10.0
+
+# ============== OPTIONAL ==============
+# Audio alerts
+playsound>=1.3.0
+
+# For async operations
+aiohttp>=3.9.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# ============== INSTALLATION ==============
+# Run: pip install -r requirements.txt
+#
+# For GPU acceleration (optional):
+# pip install tensorflow[and-cuda]
+#
+# ============== API KEYS SETUP ==============
+# Create a .env file with:
+# GROQ_API_KEY=your_groq_api_key
+# TWILIO_ACCOUNT_SID=your_twilio_sid
+# TWILIO_AUTH_TOKEN=your_twilio_token
+# TWILIO_PHONE_NUMBER=your_twilio_phone
+# TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
+# NURSE_STATION_PHONE=+91xxxxxxxxxx
+# EMERGENCY_PHONES=+91xxxxxxxxxx,+91xxxxxxxxxx
+# FAMILY_PHONES=+91xxxxxxxxxx
